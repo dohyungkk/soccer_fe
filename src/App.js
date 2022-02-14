@@ -6,12 +6,8 @@ import Ricky from './img/Ricky.png'
 
 console.log(Arsenal, logo, Ricky);
 
-function App() {
-  const clickMe = () =>{
-      alert(
-      <img src={Ricky}/>
-      )
-  }
+const App = () => {
+  
   return (
     <>
         <a target="_blank" href="https://www.premierleague.com/
@@ -19,9 +15,7 @@ function App() {
         <img src={logo}/>
         </a>
         <h1>no arsenal</h1> 
-        <a onClick={clickMe}>
         <img src={Arsenal}/>
-        </a>
       <section>
           <PostForm />
       </section>
