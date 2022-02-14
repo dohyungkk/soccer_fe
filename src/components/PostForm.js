@@ -28,11 +28,7 @@ const PostForm = () => {
         setStadium("")
         // console.log(newData)
     }
-    console.log(teamData)
-
-    console.log(MU)
-    console.log(CFC)
-    console.log(LFC)
+    console.log(teamData, MU, CFC, LFC)
 
     return (
         <>

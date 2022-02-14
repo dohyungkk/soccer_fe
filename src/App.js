@@ -4,9 +4,7 @@ import logo from './img/logo.png';
 import Arsenal from './img/4senal.png';
 import Ricky from './img/Ricky.png'
 
-console.log(Arsenal);
-console.log(logo);
-console.log(Ricky);
+console.log(Arsenal, logo, Ricky);
 
 function App() {
   const clickMe = () =>{
